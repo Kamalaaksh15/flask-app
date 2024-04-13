@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Apply styles to the form */
+form {
+    width: 50%; /* Adjust the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Apply styles to form inputs */
+input[type="text"], input[type="number"] {
+    width: 100%; /* Make the input fields full-width */
+    padding: 10px; /* Add padding to the inputs */
+    margin-bottom: 20px; /* Add spacing between inputs */
+}
+
+/* Apply styles to submit button */
+input[type="submit"] {
+    width: 100%; /* Make the button full-width */
+    padding: 10px; /* Add padding to the button */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green background color */
+}

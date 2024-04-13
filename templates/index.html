@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}"> <!-- Link to the external CSS file -->
+
+</head>
+<body>
+    <h2>Enter Input Values</h2>
+    <form action="/predict" method="post">
+        <label for="founded_year">Founded Year:</label>
+        <input type="text" id="founded_year" name="founded_year"><br>
+
+        <label for="first_funding_year">First Funding Year:</label>
+        <input type="text" id="first_funding_year" name="first_funding_year"><br>
+
+        <label for="last_funding_year">Last Funding Year:</label>
+        <input type="text" id="last_funding_year" name="last_funding_year"><br>
+
+        <label for="funding_rounds">Funding Rounds:</label>
+        <input type="text" id="funding_rounds" name="funding_rounds"><br>
+
+        <label for="funding_total_usd">Funding Total USD:</label>
+        <input type="text" id="funding_total_usd" name="funding_total_usd"><br>
+
+        <label for="first_milestone_year">First Milestone Year:</label>
+        <input type="text" id="first_milestone_year" name="first_milestone_year"><br>
+
+        <label for="last_milestone_year">Last Milestone Year:</label>
+        <input type="text" id="last_milestone_year" name="last_milestone_year"><br>
+
+        <label for="milestones">Milestones:</label>
+        <input type="text" id="milestones" name="milestones"><br>
+
+        <label for="relationships">Relationships:</label>
+        <input type="text" id="relationships" name="relationships"><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
